@@ -1,8 +1,10 @@
 <div>
     <aside>
-      <h4><a href=".">Home</a></h4>
+      <h2><a href="/home/">Home</a></h2>
+      <h2><a href="/about/">About</a></h2>
+      <h2><a href="/blog/">Blog</a></h2>
       {% for section in site.data.docs %}
-      <h4>{{ section.title }}</h4>
+      <h3>{{ section.title }}</h3>
       {% include docs_ul.html items=section.docs %}
       {% endfor %}
     </aside>
