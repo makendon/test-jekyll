@@ -1,7 +1,7 @@
 # Metadata
 title: Kit France
 email:
-description: A blog to test GitHub Codespaces
+description: Copyright © 2024 Kit France. All rights reserved.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
@@ -12,6 +12,7 @@ github_username: makendon
 theme: minima
 plugins:
   - jekyll-feed
+  - jemoji
 
 header_pages:
   - about.markdown

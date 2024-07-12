@@ -5,4 +5,6 @@
 layout: page
 title:
 ---
-Hey there, I'm Kit!
+# Hey there, I'm Kit!
+
+:wave: Welcome to my site.
