@@ -1,12 +1,19 @@
 # Metadata
 title: Kit France
 email:
-description: Copyright © 2024 Kit France. All rights reserved.
+description: Copyright © 2024 Kit France.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 linkedin_username: Kit France
 github_username: makendon
+
+github:
+  is_project_page: true
+  repository_name: test-jekyll
+  repository_url: https://github.com/makendon/test-jekyll
+  owner_name: makendon
+  owner_url: https://github.com/makendon
 
 # Build settings
 theme: minima
