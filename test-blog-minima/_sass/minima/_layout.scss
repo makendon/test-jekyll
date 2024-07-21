@@ -13,6 +13,7 @@
 
 .site-title {
   @include relative-font-size(1.625);
+  font-family: Bradley Hand;
   font-weight: 400;
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
@@ -110,6 +111,15 @@
   border-top: 1px solid #42003e;
   padding: $spacing-unit 1;
   background-color: #ededed;
+}
+
+.site-footer-navigation {
+  position: absolute;
+  display: block;
+  font-weight: bold;
+  color:#42003e;
+  right: 1px;
+  padding-right: 225px;
 }
 
 .site-footer-owner {
