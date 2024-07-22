@@ -3,7 +3,7 @@
  */
 .site-header {
   border-top: 1px solid #42003e;
-  border-bottom: 1px solid #42003e;
+  border-bottom: 5px solid #42003e;
   min-height: $spacing-unit * 1.865;
   background-color: #004225;
 
@@ -13,7 +13,7 @@
 
 .site-title {
   @include relative-font-size(1.625);
-  font-family: Bradley Hand;
+  font-family: Copperplate;
   font-weight: 400;
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
@@ -39,6 +39,7 @@
   }
 
   .page-link {
+    font-family: Copperplate;
     color: #fff;
     line-height: $base-line-height;
 
@@ -114,6 +115,7 @@
 }
 
 .site-footer-navigation {
+  font-family: Copperplate;
   position: absolute;
   display: block;
   font-weight: bold;

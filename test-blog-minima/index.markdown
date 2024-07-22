@@ -3,8 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title:
+title: Hey there, I'm Kit!
 ---
-# Hey there, I'm Kit!
 
-:wave: Welcome to my site.
+# :wave: Welcome to my site.
