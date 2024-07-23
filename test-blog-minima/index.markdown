@@ -6,11 +6,10 @@ layout: page
 title:
 ---
 
-<div class="hero-image"> 
-  <img src="images/IMG_5046.jpeg" />
-</div>
-  <div class="hero-text">
+<section class="hero"> 
+  <div class="hero-inner">
     <h1>I'm Kit France</h1>
     <p>And I'm a Product Manager</p>
-    <button>About me</button>
+    <a href="https://example.com/" class="btn">About me</a>
   </div>
+</section>

@@ -113,23 +113,41 @@
 }
 
 /* Hero */
-.hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
+.hero {
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://codetheweb.blog/assets/img/posts/full-image-hero/image.jpg);
   background-size: cover;
-  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 } 
 
-/* Hero Text */
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.hero h1 {
+  font-size: 5em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Hero Button */
+.hero .btn {
+  display: block;
+  width: 200px;
+  border: 3px solid white;
+  padding: 1em;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
   color: white;
+  text-decoration: none;
+  font-size: 1em;
+  border-radius: 20px;
+  background-color: #004225;
 }
 
 /**
