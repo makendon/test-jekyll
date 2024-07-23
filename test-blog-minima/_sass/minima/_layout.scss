@@ -11,15 +11,6 @@
   position: sticky;
 }
 
-.logo {
-  float: left;
-  padding-left: 50px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  width: 100px;
-  border-radius: 50%;
-}
-
 .site-title {
   @include relative-font-size(1.625);
   font-family: Copperplate;
@@ -114,19 +105,30 @@
 
 /* Hero */
 .hero {
-  width: 50vw;
-  height: 50vh;
-  display: flex;
+  width: 100vw;
+  height: 100vh;
+  /*display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: white;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://codetheweb.blog/assets/img/posts/full-image-hero/image.jpg);
+  color: white;*/
+  background-image: url('images/IMG_5046.jpeg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  position: relative;
 } 
+
+/* Hero Text */
+.hero-text {
+  font-family: Copperplate;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  color: white;
+}
 
 .hero h1 {
   font-size: 5em;
