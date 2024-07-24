@@ -24,10 +24,21 @@
         {%- endif %}
         
         <br>
-                  
-      <div class="site-footer-navigation">
+      
+      <nav class="site-footer-navigation">
+          <ul>
+              <li><a href="{{ "/" | relative_url }}">Home</a></li>
+              <li><a href="/about/">About</a></li>
+              <li><a href="/portfolio/">Portfolio</a></li>
+              <li><a href="/projects/"">Projects</a></li>
+              <li><a href="/blog/">Blog</a></li>
+          </ul>
+      </nav>  
+      
+      
+      <!--<div class="site-footer-navigation">
         <a href="{{ "/" | relative_url }}">Home</a>&emsp;<a href="/about/">About</a>&emsp;<a href="/portfolio/">Portfolio</a>&emsp;<a href="/projects/">Projects</a>&emsp;<a href="/blog/">Blog</a>
-      </div>
+      </div>-->
 
       <div class="social-links">
         {%- include social.html -%}

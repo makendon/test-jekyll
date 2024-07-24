@@ -2,6 +2,7 @@
  * Site header
  */
 .site-header {
+  height: 5px;
   border-top: 1px solid #42003e;
   border-bottom: 5px solid #42003e;
   min-height: $spacing-unit * 1.865;
@@ -14,8 +15,8 @@
 .site-title {
   @include relative-font-size(1.625);
   font-family: Copperplate;
-  font-weight: 400;
-  line-height: $base-line-height * $base-font-size * 3.25;
+  font-weight: 300;
+  line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
@@ -28,7 +29,7 @@
 
 .site-nav {
   float: right;
-  line-height: $base-line-height * $base-font-size * 3.25;
+  line-height: $base-line-height * $base-font-size * 2.25;
 
   .nav-trigger {
       display: none;
@@ -107,20 +108,19 @@
 .hero {
   width: 100vw;
   height: 100vh;
-  /*display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: white;*/
+  color: white;
   background-image: url('images/IMG_5046.jpeg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  position: relative;
 } 
 
-/* Hero Text */
+/* Hero Text
 .hero-text {
   font-family: Copperplate;
   text-align: center;
@@ -128,7 +128,7 @@
   top: 50%;
   left: 25%;
   color: white;
-}
+} */
 
 .hero h1 {
   font-size: 5em;
@@ -163,8 +163,7 @@
 
 .site-footer-navigation {
   font-family: Copperplate;
-  position: absolute;
-  display: block;
+  list-style-type: none;
   font-weight: bold;
   color:#42003e;
 }
