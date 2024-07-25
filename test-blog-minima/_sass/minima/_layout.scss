@@ -2,14 +2,20 @@
  * Site header
  */
 .site-header {
-  height: 5px;
-  border-top: 1px solid #42003e;
-  border-bottom: 5px solid #42003e;
+  height: 1px;
+  border-bottom: 5px solid #004225;
   min-height: $spacing-unit * 1.865;
-  background-color: #004225;
+  background-color: white;
   top: 0;
   // Positioning context for the mobile navigation icon
   position: sticky;
+}
+
+header img {
+  height: 40px;
+  margin-left: 40px;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 .site-title {
@@ -19,11 +25,11 @@
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
   margin-bottom: 0;
-  float: left;
+  margin-left: 100px;
 
   &,
   &:visited {
-    color: #fff;
+    color: black;
   }
 }
 
@@ -41,8 +47,9 @@
 
   .page-link {
     font-family: Copperplate;
-    color: #fff;
+    color: black;
     line-height: $base-line-height;
+    margin-right: 40px;
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
@@ -152,7 +159,7 @@
   font-weight: 700;
   border-radius: 20px;
   background-color: #004225;
-  border-color: #42003e;
+  border-color: #004225;
 }
 
 .hero .btn:hover { 
@@ -166,7 +173,7 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid #42003e;
+  border-top: 1px solid #004225;
   padding: $spacing-unit 1;
   background-color: #ededed;
   padding-top: 1em;
