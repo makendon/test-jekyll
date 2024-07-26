@@ -34,3 +34,10 @@ permalink: pretty
 
 # Blogging
 show_excerpts: true
+
+# Images
+defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
