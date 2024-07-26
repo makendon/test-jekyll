@@ -1,8 +1,16 @@
 <header>  <!--class="wrapper"-->
-
-  <img src="assets/images/Logo (160 x 160 px) - 1.png">
-
-    <div class="site-header">  <!--class="wrapper"-->
+    <img src="assets/images/Logo (160 x 160 px) - 1.png">
+     <nav>
+        <ul>
+            <li><a href="{{ "/" | relative_url }}">Home</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/portfolio/">Portfolio</a></li>
+            <li><a href="/projects/">Projects</a></li>
+            <li><a href="/blog/">Blog</a></li>
+        </ul>
+      </nav>
+   
+   <!--<div class="site-header">  class="wrapper"
       {%- assign default_paths = site.pages | map: "path" -%}
       {%- assign page_paths = site.header_pages | default: default_paths -%}
       {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
@@ -27,7 +35,7 @@
               {%- endif -%}
             {%- endfor -%}
           </div>
-        </nav>
+        </nav>-->
       {%- endif -%}
     </div>
   </header>
